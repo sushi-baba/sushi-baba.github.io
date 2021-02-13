@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+
+body{
+ min-height: 100vh;
+ background: url(bg.jpg)no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+@media (max-width: 900px){
+ .main h1{
+   font-size: 40px;
+   line-height: 60px;
+ }
+}
+      
+h1{
+font-family: 'Hanalei Fill', cursive;
+color:Khaki; 
+}
+
+h1:hover{
+font-family: 'Hanalei', cursive;
+color:#bdb76b;
+}
+
+h1.sushi{
+animation-name: pup;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+}
+
+
+@keyframes pup{
+ 0%{color:Chartreuse;}
+25%{color:GreenYellow;}
+50%{color:LawnGreen;}
+75%{color:Lime;}
+100%{color:MediumSpringGreen;}
+}
