@@ -26,11 +26,6 @@ font-family: 'Hanalei', cursive;
 color:#bdb76b;
 }
 
-h1.sushi{
-animation-name: pup;
-animation-duration: 5s;
-animation-iteration-count: infinite;
-}
 
 
 @keyframes pup{
@@ -41,22 +36,67 @@ animation-iteration-count: infinite;
 100%{color:MediumSpringGreen;}
 }
 
-button.music{
+h1.sushi{
+animation-name: pup;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
 
+button.music{
+  background-color: Salmon;
+  border: solid;
+  border-color: DarkSalmon;
+  border-radius:35px;
+  width:175px;
+  color: DarkSalmon;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
 }
 
 
-button.music{
-
+button.brawl{
+  background-color: Gold;
+  border: solid;
+  border-color: GoldenRod;
+  border-radius:35px;
+  width:175px;
+  color: GoldenRod;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
 }
 
 
-button.music{
-
+button.wizard{
+  background-color: SlateBlue;
+  border: solid;
+  border-color: DarkSlateBlue;
+  border-radius:35px;
+  width:175px;
+  color: DarkSlateBlue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
 }
 
 
-button.music{
-
+button.coding{
+  background-color: SkyBlue;
+  border: solid;
+  border-color: DeepSkyBlue;
+  border-radius:35px;
+  width:175px;
+  color: DeepSkyBlue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
 }
-
