@@ -100,3 +100,62 @@ button.coding{
   display: inline-block;
   font-size: 24px;
 }
+
+button.music:hover{
+  background-color: DarkRed;
+  border: solid;
+  border-color: Red;
+  border-radius:35px;
+  width:175px;
+  color: Red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+
+button.brawl:hover{
+  background-color: GoldenRod;
+  border: solid;
+  border-color: Gold;
+  border-radius:35px;
+  width:175px;
+  color: Gold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+
+button.wizard:hover{
+  background-color: DarkSlateBlue;
+  border: solid;
+  border-color: SlateBlue;
+  border-radius:35px;
+  width:175px;
+  color: SlateBlue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+
+button.coding:hover{
+  background-color: DeepSkyBlue;
+  border: solid;
+  border-color: SkyBlue;
+  border-radius:35px;
+  width:175px;
+  color: SkyBlue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
